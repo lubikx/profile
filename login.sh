@@ -1,6 +1,4 @@
-source ./profile/bashrc
-cd /var/www/html
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/github_lubikx_id_rsa
-echo Welcome to $HOSTNAME
-
+cd ~/profile
+source ./ssh-agent.sh
+source ./update-profile.sh
+source ./bashrc
